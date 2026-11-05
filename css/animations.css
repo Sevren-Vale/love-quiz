@@ -1,0 +1,16 @@
+@keyframes arrive { from {opacity:0;transform:translateY(9px)} to {opacity:1;transform:translateY(0)} }
+@keyframes leave { to {opacity:0;transform:translateY(-6px)} }
+@keyframes heart-beat { 0%,100% {scale:1} 38% {scale:1.07} 64% {scale:1.02} }
+@keyframes float { 0%,100% {transform:translateY(0) rotate(-7deg)} 50% {transform:translateY(-11px) rotate(8deg)} }
+@keyframes orbit { to {transform:rotate(360deg)} }
+@keyframes unseal { to {scale:1.24;opacity:0} }
+@keyframes unfold { to {transform:rotateX(175deg)} }
+@keyframes pull-paper { 65% {transform:translateY(-68%) scale(.94)} to {transform:translateY(-74%) scale(1.08)} }
+@keyframes envelope-away { 76% {opacity:1} to {opacity:0} }
+@keyframes scatter { from {transform:scale(.55);opacity:0} 45% {opacity:1} to {transform:scale(2);opacity:0} }
+.heartbeat { animation:heart-beat 2.8s ease-in-out infinite }
+.leaving { animation:leave .2s ease-in both }
+.leaving .heartbeat { animation:heart-beat .2s both }
+@media (prefers-reduced-motion:reduce) {
+  *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important }
+}

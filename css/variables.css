@@ -1,0 +1,18 @@
+:root {
+  --background:#fff9f6;
+  --surface:#fff;
+  --primary:#a94868;
+  --primary-hover:#923954;
+  --rose:#d77b98;
+  --accent:#994362;
+  --text:#493a40;
+  --muted:#75636b;
+  --soft-pink:#f8e6eb;
+  --border:#efdde3;
+  --paper:#faf1e6;
+  --radius-card:24px;
+  --radius-button:15px;
+  --shadow:0 18px 56px #8e465517,0 2px 8px #8e465508;
+  --serif:"Songti SC",STSong,SimSun,Georgia,serif;
+  --sans:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;
+}

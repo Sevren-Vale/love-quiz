@@ -1,0 +1,6 @@
+node_modules/
+.chrome-test/
+.env
+.env.*
+*.log
+.chrome-test-*/
